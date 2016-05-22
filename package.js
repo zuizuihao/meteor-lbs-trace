@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'meteor-lbs-trace',
+  name: 'roadshr:meteor-lbs-trace',
   version: '0.0.1',
   // Brief, one-line summary of the package.
   summary: '',
@@ -25,6 +25,6 @@ Cordova.depends({
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
-  api.use('meteor-lbs-trace');
+  api.use('roadshr:meteor-lbs-trace');
   api.mainModule('meteor-lbs-trace-tests.js');
 });
