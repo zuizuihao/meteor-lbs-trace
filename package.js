@@ -18,7 +18,7 @@ Package.onUse(function (api) {
 });
 
 Cordova.depends({
-  "com.roadshr.cordova.lbs_trace": "file:///Volumes/G/roadshr/lbs_trace-phonegap-plugin",
+  "com.roadshr.cordova.lbs_trace": "https://github.com/zuizuihao/lbs_trace-phonegap-plugin.git#edc717fd9e20b5ac04daaf599c830d1bd4ed28f7",
   "cordova-plugin-device": "1.1.2"
 });
 
