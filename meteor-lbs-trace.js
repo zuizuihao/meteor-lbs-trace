@@ -14,10 +14,10 @@ LBSTraceMobileAPI.configure = function (entityName) {
   LBSTracePlugin.configure(setting.serviceId, entityName, setting.traceType, function (data) {
     console.log('backgroundGeoLocation configure success', '');
   }, function (error) {
-    console.log('error: ' + error, '');
+    console.log('error: ' + error);
   });
 
-  console.log('configure');
+  console.log('LBSTraceMobileAPI configure');
 }
 
 LBSTraceMobileAPI.startTrace = function () {
